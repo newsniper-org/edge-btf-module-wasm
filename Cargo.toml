@@ -9,7 +9,7 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-ckks-engine = "4.0.0"
+ckks-engine = { git = "https://github.com/newsniper-org/ckks-engine.git" }
 hex = "0.4.3"
 wasm-bindgen = "0.2.100"
 
